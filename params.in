@@ -1,0 +1,25 @@
+Nx = 800
+Ny = 800
+Ne = 16
+
+# for inverse problem
+Nx_coarse = 400
+Ny_coarse = 400
+
+
+output dir = results
+output file name = heat
+#output frequency = 20
+
+theta_plus=0.35
+
+# shape = 1
+# testid = 1
+# noise = 0.02
+
+diffusion coefficient = 1
+
+# Linear solver type
+# 0 for direct
+# 1 for conjugate gradient
+solver type = 0
